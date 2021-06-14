@@ -5,32 +5,53 @@ body {
     padding:1px;
 }
 header{
-    position:absolute;
-    right:10px;
+    /* position:absolute; */
     border: 1px solid red;
     display: block;
     
+}
+header div{
+    display: block;
 }
 header ul li{
     display:inline-block;
     padding:0 10px;
+    border:1px solid red;
            
 }
-main{
-    position:absolute;
-    display: block;
-    border: 1px solid red;
+
+.dot{
+    height: 25px;
+    width:5px;
+    background-color: #197004;
+    border-radius: 100px;
+    color:#f2f2f2;
+    display: inline-block;    
+}
+.t-align{
+    padding-top: 10px;
+    
 }
 
-footer {
-    position: absolute;
+main{
+    position:relative;
     display: block;
-    bottom:1px;
+    border: 1px solid red;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
     
+}
+
+footer {    
+    bottom:1px;
+    padding:1px 0 1px 0;    
 }
 footer{
     background-color: #f2f2f2;
 }
 footer div ul li{
     display: inline;
+    padding: 5px;
     }
+
