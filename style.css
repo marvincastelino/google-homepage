@@ -1,23 +1,22 @@
 body {
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
     color:black;
     padding:1px;
+    margin: 0;
 }
-header{
-    /* position:absolute; */
-    border: 1px solid red;
-    display: block;
-    
-}
-header div{
-    display: block;
-}
-header ul li{
+nav{
+    display:inline-block;
+    /* float:right; */
+    position: absolute;
+    right:50px;
+    }
+
+nav ul li{
     display:inline-block;
     padding:0 10px;
-    border:1px solid red;
-           
+     
 }
 .apps{
     display: block;
@@ -31,28 +30,49 @@ header ul li{
     display: inline-block;    
 }
 .t-align{
-    padding-top: 10px;
-    
+    padding-top: 10px;    
 }
 
 main{
     position:relative;
     display: block;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin:auto;
-    width: 50%;
-    
-}
+    width: 10%;
+    height:150px;;
+    margin-top:430px;
+ }
 
 footer {    
     bottom:1px;
-    padding:1px 0 1px 0;    
+    padding:1px 0 1px 0;
+    color: rgba(0,0,0,.54);
+    margin-top:560px;
+    font-size:15px;
 }
 footer{
     background-color: #f2f2f2;
 }
+footer div ul {
+    display: inline-block;
+   }
 footer div ul li{
-    display: inline;
-    padding: 5px;
-    }
+    display: inline-block;
+    padding-right: 15px;
+}
+.r_list{
+    float:right;
+}
 
+.f_border{
+    border-bottom:1px solid #dadce0;
+}
+
+div{
+    /* border:1px solid tomato;   */
+}
+.divide{
+    display:inline-flex;
+    padding:10px auto;
+    float:right;
+}
