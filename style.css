@@ -37,17 +37,39 @@ main{
     position:relative;
     display: block;
     /* border: 1px solid red; */
-    margin:auto;
-    width: 10%;
-    height:150px;;
+    margin-left:500px;
+    margin-right:500px;
+    width: 30%;
+    height:300px;
     margin-top:430px;
+    border: 1px solid red;
  }
+ main div{
+     padding-top: 30px;
+ }
+
+ input{
+    width:600px;
+    height:35px;
+    position: relative;
+    border-radius: 30px;
+    border:1px solid #cecece
+}
+
+button{
+    background-color: #f8f9fa;
+    width: auto;
+    height:30px;
+    padding:0 22px;
+    border-radius:5px;
+    border:1px solid #fff
+}
 
 footer {    
     bottom:1px;
     padding:1px 0 1px 0;
     color: rgba(0,0,0,.54);
-    margin-top:560px;
+    margin-top:400px;
     font-size:15px;
 }
 footer{
@@ -73,3 +95,4 @@ footer div ul li{
     padding:10px auto;
     float:right;
 }
+
