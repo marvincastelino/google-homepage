@@ -42,7 +42,7 @@ main{
     width: 30%;
     height:300px;
     margin-top:430px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
  }
  main div{
      padding-top: 30px;
@@ -50,19 +50,25 @@ main{
 
  input{
     width:600px;
-    height:35px;
+    height:40px;
     position: relative;
-    border-radius: 30px;
+    border-radius: 40px;
     border:1px solid #cecece
+}
+input:hover{
+    box-shadow:1px solid red;
 }
 
 button{
     background-color: #f8f9fa;
     width: auto;
-    height:30px;
-    padding:0 22px;
+    height:40px;
+    padding:0 30px;
     border-radius:5px;
-    border:1px solid #fff
+    border:1px solid #fff;
+    margin:3px;
+    font-size:14px;
+    color: #504e4e;
 }
 
 footer {    
